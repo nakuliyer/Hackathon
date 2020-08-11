@@ -15,5 +15,5 @@ import os
 
 # port = int(os.environ.get("PORT", 9874))
 
-# app.run(port=port, debug=True)
-app.run()
+app.run(host="0.0.0.0", port=58929, debug=True)
+# app.run()

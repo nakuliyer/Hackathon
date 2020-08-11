@@ -13,6 +13,7 @@ app = Flask(__name__)
 import clientbot.routes
 import os
 
-port = int(os.environ.get("PORT", 9874))
+# port = int(os.environ.get("PORT", 9874))
 
-app.run(port=port, debug=True)
+# app.run(port=port, debug=True)
+app.run()
